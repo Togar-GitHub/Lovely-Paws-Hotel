@@ -1,4 +1,4 @@
-# Lovely Paws Hotel
+# `Lovely Paws Hotel`
 
 ## Database Schema Design
 
