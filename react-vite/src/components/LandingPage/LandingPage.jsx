@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import * as sessionActions from "../../redux/session";
 import { getOrderedReviews } from "../../redux/review";
 import ProfileButton from "../Navigation/ProfileButton";
+import Footer from "../Footer";
 import lan from "./LandingPage.module.css";
 import { IoIosPaw } from "react-icons/io";
 import DemoButton from "../Navigation/DemoButton";
@@ -174,6 +175,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

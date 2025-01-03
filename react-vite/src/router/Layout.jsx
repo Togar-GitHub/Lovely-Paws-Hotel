@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import * as sessionActions from "../redux/session";
 import Navigation from "../components/Navigation/Navigation";
+import Footer from "../components/Footer";
 
 export default function Layout() {
   const dispatch = useDispatch();
@@ -15,6 +16,7 @@ export default function Layout() {
     <>
       <Navigation />
       {isLoaded && <Outlet />}
+      <Footer />
     </>
   );
 }
