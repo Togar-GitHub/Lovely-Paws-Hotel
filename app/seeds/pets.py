@@ -10,7 +10,7 @@ def seed_pets():
             type='cat',
             breed='Domestic Shorthair',
             age=13,
-            gender='Male',
+            gender='male',
             color='White and black',
             weight=12.0,
             dob=date(2011, 6, 15),
